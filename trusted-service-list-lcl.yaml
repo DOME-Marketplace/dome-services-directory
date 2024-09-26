@@ -16,7 +16,7 @@ clients:
       scopes: ["openid_learcredential"]
       clientAuthenticationMethods: ["client_secret_jwt"]
       authorizationGrantTypes: ["authorization_code"]
-      postLogoutRedirectUris: "http://127.0.0.1:8081/cb"
+      postLogoutRedirectUris: ["http://127.0.0.1:8081/cb"]
       requireAuthorizationConsent: false
       requireProofKey: false
       jwkSetUrl: "http://localhost:9000/oidc/did/did:key:zDnaeUcW7pAV2xfcEMRsi3tsgYSYkLEf8mbSCZ7YFhKDu6XcR"
